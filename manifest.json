@@ -1,0 +1,20 @@
+{
+  "name": "Prestofatto Bra",
+  "short_name": "Prestofatto",
+  "description": "Pizza al taglio, panuozzi, panini e gastronomia veloce a Bra.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8eb",
+  "theme_color": "#e94223",
+  "lang": "it",
+  "categories": ["food", "business"],
+  "icons": [
+    {
+      "src": "assets/07-logo-1778321103988-logo.jpg",
+      "sizes": "150x150",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
