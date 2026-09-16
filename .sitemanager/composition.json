@@ -1,4 +1,29 @@
 {
   "formatVersion": 1,
-  "sections": {}
+  "sections": {
+    "about": {
+      "allowed": [
+        "about-original",
+        "about-image-text"
+      ],
+      "optionsByComponent": {
+        "about-image-text": {},
+        "about-original": {}
+      },
+      "selected": "about-original"
+    },
+    "services": {
+      "allowed": [
+        "services-original",
+        "services-steps",
+        "services-list"
+      ],
+      "optionsByComponent": {
+        "services-list": {},
+        "services-original": {},
+        "services-steps": {}
+      },
+      "selected": "services-steps"
+    }
+  }
 }

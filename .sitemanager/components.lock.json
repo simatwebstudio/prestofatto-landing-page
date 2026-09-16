@@ -1,4 +1,30 @@
 {
-  "components": [],
+  "components": [
+    {
+      "definition": "components/about/about-original/component.json",
+      "id": "about-original",
+      "version": "1.0.0"
+    },
+    {
+      "definition": "components/about/about-image-text/component.json",
+      "id": "about-image-text",
+      "version": "1.0.0"
+    },
+    {
+      "definition": "components/services/services-original/component.json",
+      "id": "services-original",
+      "version": "1.0.0"
+    },
+    {
+      "definition": "components/services/services-steps/component.json",
+      "id": "services-steps",
+      "version": "1.0.0"
+    },
+    {
+      "definition": "components/services/services-list/component.json",
+      "id": "services-list",
+      "version": "1.0.0"
+    }
+  ],
   "formatVersion": 1
 }

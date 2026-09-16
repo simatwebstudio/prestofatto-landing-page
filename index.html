@@ -136,6 +136,7 @@
       </div>
     </section>
 
+
     <section class="section menu-section" id="menu" aria-labelledby="menu-title">
       <div class="container">
         <div class="section-heading menu-heading">
@@ -288,45 +289,44 @@
       </div>
     </section>
 
-    <section class="section service-hours-section" id="orari" aria-labelledby="hours-title">
-      <div class="container service-hours-grid">
-        <div class="service-panel">
-          <p class="section-kicker">Servizi</p>
-          <h2>Asporto, banco e consegna.</h2>
-          <div class="service-list">
-            <article>
-            <h3>In galleria</h3>
-              <p>Passa al banco, scegli dalla vetrina e fermati per una pausa breve.</p>
-            </article>
-            <article>
-              <h3>Takeaway</h3>
-              <p>Ordini, ritiri e porti via: il formato naturale di Prestofatto.</p>
-            </article>
-            <article>
-              <h3>Delivery</h3>
-              <p>Disponibile online tramite Deliveroo per ricevere i tuoi preferiti.</p>
-            </article>
-          </div>
-        </div>
+    <style>[data-sm-variant="services-steps"]{position:relative;float:none;width:100%;max-width:100%;height:auto;min-height:0;margin:0;padding:clamp(3.5rem,7vw,5.5rem) clamp(.75rem,3vw,1.5rem);overflow:hidden;color:var(--inchiostro,#261713);background:linear-gradient(90deg,rgba(23,18,15,.04),transparent 38%),var(--giallo-soft,#ffe59b);font-family:var(--font-base,Arial,Helvetica,sans-serif);box-sizing:border-box}
+[data-sm-variant="services-steps"] *{box-sizing:border-box}
+[data-sm-variant="services-steps"] .sm-steps__inner{width:min(100%,var(--container,1180px));max-width:100%;margin:0 auto}
+[data-sm-variant="services-steps"] .sm-steps__head{width:100%;max-width:48rem;margin:0 auto clamp(1.75rem,4vw,2.75rem);padding:0;text-align:center}
+[data-sm-variant="services-steps"] .sm-steps__kicker,[data-sm-variant="services-steps"] .sm-steps__hours-kicker{margin:0 0 .75rem;color:var(--rosso-scuro,#9e2416);font-size:clamp(.72rem,1.2vw,.82rem);font-weight:900;letter-spacing:.08em;line-height:1.4;text-transform:uppercase}
+[data-sm-variant="services-steps"] .sm-steps__title,[data-sm-variant="services-steps"] .sm-steps__hours h2{margin:0;color:var(--nero,#17120f);font-family:var(--font-display,Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif);font-size:clamp(2.15rem,5vw,3.6rem);font-weight:900;line-height:.98;text-transform:uppercase;overflow-wrap:anywhere}
+[data-sm-variant="services-steps"] .sm-steps__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1rem,2.5vw,1.5rem);width:100%;max-width:100%;margin:0;padding:0;list-style:none}
+[data-sm-variant="services-steps"] .sm-steps__card{position:relative;float:none;width:auto;max-width:100%;height:auto;min-height:100%;margin:0;padding:clamp(1.25rem,3vw,1.75rem);border:4px solid var(--nero,#17120f);border-radius:var(--raggio,8px);box-shadow:7px 7px 0 var(--nero,#17120f);background:var(--carta,#ffffff);text-align:left}
+[data-sm-variant="services-steps"] .sm-steps__number{display:inline-grid;place-items:center;width:3.25rem;max-width:100%;height:3.25rem;margin:0 0 1.25rem;border:3px solid var(--nero,#17120f);border-radius:50%;color:var(--nero,#17120f);background:var(--giallo,#ffc33d);font-family:var(--font-display,Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif);font-size:clamp(1.25rem,2.5vw,1.65rem);line-height:1}
+[data-sm-variant="services-steps"] .sm-steps__card h3{margin:0;color:var(--nero,#17120f);font-family:var(--font-display,Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif);font-size:clamp(1.45rem,2.5vw,1.8rem);font-weight:900;line-height:1;text-transform:uppercase;overflow-wrap:anywhere}
+[data-sm-variant="services-steps"] .sm-steps__card p{margin:.65rem 0 0;color:var(--grigio,#6b625d);font-size:clamp(.95rem,1.3vw,1rem);line-height:1.6;overflow-wrap:anywhere}
+[data-sm-variant="services-steps"] .sm-steps__hours{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.2fr) minmax(0,.85fr);align-items:center;gap:clamp(1.25rem,3vw,2.5rem);width:100%;max-width:100%;height:auto;margin:clamp(2rem,5vw,3.5rem) 0 0;padding:clamp(1.25rem,3vw,1.75rem);border:4px solid var(--nero,#17120f);border-radius:var(--raggio,8px);box-shadow:8px 8px 0 var(--nero,#17120f);color:var(--carta,#ffffff);background:var(--nero,#17120f)}
+[data-sm-variant="services-steps"] .sm-steps__hours-kicker{color:var(--giallo,#ffc33d)}
+[data-sm-variant="services-steps"] .sm-steps__hours h2{color:var(--giallo,#ffc33d);font-size:clamp(2rem,4vw,3rem)}
+[data-sm-variant="services-steps"] .sm-steps__hours dl{display:grid;gap:.5rem;margin:0;padding:0}
+[data-sm-variant="services-steps"] .sm-steps__hours dl div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem;padding:.65rem 0;border-bottom:2px dashed rgba(255,255,255,.28)}
+[data-sm-variant="services-steps"] .sm-steps__hours dt,[data-sm-variant="services-steps"] .sm-steps__hours dd{margin:0;font-size:clamp(.88rem,1.3vw,1rem);font-weight:900;overflow-wrap:anywhere}
+[data-sm-variant="services-steps"] .sm-steps__contact{display:grid;gap:1rem}
+[data-sm-variant="services-steps"] .sm-steps__contact p{margin:0;color:rgba(255,255,255,.78);font-size:clamp(.9rem,1.2vw,.98rem);line-height:1.5}
+[data-sm-variant="services-steps"] .sm-steps__contact a{display:inline-flex;align-items:center;justify-content:center;width:100%;max-width:100%;min-height:3rem;padding:.75rem 1rem;border:3px solid var(--nero,#17120f);border-radius:var(--raggio,8px);box-shadow:5px 5px 0 var(--nero,#17120f);color:var(--nero,#17120f);background:var(--giallo,#ffc33d);font-weight:900;line-height:1.1;text-decoration:none;overflow-wrap:anywhere}
+@media (max-width:900px){[data-sm-variant="services-steps"] .sm-steps__grid{grid-template-columns:minmax(0,1fr)}[data-sm-variant="services-steps"] .sm-steps__hours{grid-template-columns:minmax(0,1fr) minmax(0,1.5fr)}}
+@media (max-width:620px){[data-sm-variant="services-steps"]{padding-inline:.75rem}[data-sm-variant="services-steps"] .sm-steps__hours{grid-template-columns:minmax(0,1fr)}[data-sm-variant="services-steps"] .sm-steps__hours dl div{grid-template-columns:minmax(0,1fr)}[data-sm-variant="services-steps"] .sm-steps__card,[data-sm-variant="services-steps"] .sm-steps__hours{box-shadow:5px 5px 0 var(--nero,#17120f)}}</style>
+<section id="orari" class="sm-steps" data-sm-variant="services-steps" aria-labelledby="services-steps-title">
+  <div class="sm-steps__inner">
+    <header class="sm-steps__head"><p class="sm-steps__kicker">Servizi</p><h2 class="sm-steps__title" id="services-steps-title">Asporto, banco e consegna.</h2></header>
+    <ol class="sm-steps__grid">
+      <li class="sm-steps__card"><span class="sm-steps__number" aria-hidden="true">01</span><h3>In galleria</h3><p>Passa al banco, scegli dalla vetrina e fermati per una pausa breve.</p></li>
+      <li class="sm-steps__card"><span class="sm-steps__number" aria-hidden="true">02</span><h3>Takeaway</h3><p>Ordini, ritiri e porti via: il formato naturale di Prestofatto.</p></li>
+      <li class="sm-steps__card"><span class="sm-steps__number" aria-hidden="true">03</span><h3>Delivery</h3><p>Disponibile online tramite Deliveroo per ricevere i tuoi preferiti.</p></li>
+    </ol>
+    <aside class="sm-steps__hours" aria-labelledby="hours-title">
+      <div class="sm-steps__hours-head"><p class="sm-steps__hours-kicker">Quando passare</p><h2 id="hours-title">Orari</h2></div>
+      <dl><div><dt>Lunedì e Martedì</dt><dd>10:00 - 18:30</dd></div><div><dt>Mercoledì - Domenica</dt><dd>10:00 - 22:30</dd></div></dl>
+      <div class="sm-steps__contact"><p>Per conferme rapide o ordini telefonici chiama il locale.</p><a href="tel:+390172754164">0172 754164</a></div>
+    </aside>
+  </div>
+</section>
 
-        <div class="hours-panel">
-          <p class="section-kicker">Quando passare</p>
-          <h2 id="hours-title">Orari</h2>
-          <dl class="hours-list">
-            <div>
-              <dt>Lunedì e Martedì</dt>
-              <dd>10:00 - 18:30</dd>
-            </div>
-            <div>
-              <dt>Mercoledì - Domenica</dt>
-              <dd>10:00 - 21:30</dd>
-            </div>
-          </dl>
-          <p class="hours-note">Per conferme rapide o ordini telefonici chiama il locale.</p>
-          <a class="button button-dark" href="tel:+390172754164">0172 754164</a>
-        </div>
-      </div>
-    </section>
 
     <section class="section location-section" id="dove-siamo" aria-labelledby="location-title">
       <div class="container location-grid">
